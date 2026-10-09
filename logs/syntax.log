@@ -1,0 +1,10 @@
+﻿  dllmain.cpp
+     Criando biblioteca C:\Users\User\source\repos\syntax\x64\Release\syntax.lib e objeto C:\Users\User\source\repos\syntax\x64\Release\syntax.exp
+  Gerando código
+  1 of 524 functions ( 0.2%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finalizada a geração de código
+  syntax.vcxproj -> C:\Users\User\source\repos\syntax\x64\Release\syntax.dll
+  'pwsh.exe' não é reconhecido como um comando interno
+  ou externo, um programa operável ou um arquivo em lotes.

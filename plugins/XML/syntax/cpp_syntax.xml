@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SyntaxLanguage name="C++" extensions="cpp,h,hpp">
+    <!-- Palavras-chave principais em ROXO -->
+    <Keywords group="keywords" color="#800080" bold="true">
+        if else for while do switch case return break continue class struct public private protected virtual override template typename namespace using auto inline const constexpr #include #define #ifdef #ifndef #endif main extern friend
+    </Keywords>
+    
+    <!-- Palavras de erro e macros perigosas em VERMELHO -->
+    <Keywords group="errors" color="#FF0000" bold="true">
+        nullptr NULL nullptr_t throw try catch static_assert const_cast reinterpret_cast dynamic_cast static_cast delete static
+    </Keywords>
+    
+    <!-- Tipos de dados em AMARELO -->
+    <Keywords group="literals" color="#FFD700" bold="false">
+        int float double char bool void short long unsigned true false size_t string vector std cout cin endl list map
+    </Keywords>
+    
+    <!-- Regras de Captura Textual -->
+    <Comments line="//" blockStart="/*" blockEnd="*/" color="#7F7F7F" />
+    <Strings double='"' single="'" color="#FFD700" />
+</SyntaxLanguage>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SyntaxLanguage name="Python" extensions="py">
+    <!-- Palavras-chave principais em ROXO -->
+    <Keywords group="keywords" color="#800080" bold="true">def class if elif else for while return import from as try except finally pass break continue print lambda in is and or not global nonlocal assert del with</Keywords>
+    
+    <!-- Erros comuns e exceções em VERMELHO -->
+    <Keywords group="errors" color="#FF0000" bold="true">Exception ValueError TypeError IndexError KeyError NameError SyntaxError None AttributeError NotImplemented ZeroDivisionError RuntimeError</Keywords>
+    
+    <!-- Tipos e Valores em AMARELO -->
+    <Keywords group="literals" color="#FFD700" bold="false">True False str int float list dict tuple set bool bytes range len</Keywords>
+    
+    <!-- Regras de Captura Textual -->
+    <Comments line="#" blockStart='"""' blockEnd='"""' color="#7F7F7F" />
+    <Strings double='"' single="'" color="#FFD700" />
+</SyntaxLanguage>

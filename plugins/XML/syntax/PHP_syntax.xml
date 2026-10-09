@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SyntaxLanguage name="PHP" extensions="php">
+    <!-- Palavras-chave principais em ROXO -->
+    <Keywords group="keywords" color="#800080" bold="true">
+        function class public private protected interface if elseif else foreach while do switch case return echo print require include require_once include_once new clone static const extends implements global as and or xor use namespace
+    </Keywords>
+    
+    <!-- Erros e constantes especiais em VERMELHO -->
+    <Keywords group="errors" color="#FF0000" bold="true">
+        null NULL false FALSE Exception TypeError Error DIE die exit throw try catch finally
+    </Keywords>
+    
+    <!-- Tipos e valores em AMARELO -->
+    <Keywords group="literals" color="#FFD700" bold="false">
+        true TRUE array int string float bool object double
+    </Keywords>
+    
+    <!-- Regras de Captura Textual -->
+    <Comments line="//" lineAlt="#" blockStart="/*" blockEnd="*/" color="#7F7F7F" />
+    <Strings double='"' single="'" color="#FFD700" />
+</SyntaxLanguage>

@@ -1,0 +1,10 @@
+﻿  pch.cpp
+  dllmain.cpp
+     Criando biblioteca C:\Users\User\source\repos\cmd\x64\Release\cmd.lib e objeto C:\Users\User\source\repos\cmd\x64\Release\cmd.exp
+  Gerando código
+  Previous IPDB not found, fall back to full compilation.
+  All 2 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finalizada a geração de código
+  cmd.vcxproj -> C:\Users\User\source\repos\cmd\x64\Release\cmd.dll
+  'pwsh.exe' não é reconhecido como um comando interno
+  ou externo, um programa operável ou um arquivo em lotes.

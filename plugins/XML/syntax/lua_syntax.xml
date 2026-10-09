@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SyntaxLanguage name="Lua" extensions="lua">
+    <!-- Palavras-chave principais em ROXO -->
+    <Keywords group="keywords" color="#800080" bold="true">
+        local function end if then elseif else for in do while repeat until return break require and or not goto
+    </Keywords>
+    
+    <!-- Erros e nulos em VERMELHO -->
+    <Keywords group="errors" color="#FF0000" bold="true">
+        nil error assert pcall xpcall false
+    </Keywords>
+    
+    <!-- Valores e Globais comuns em AMARELO -->
+    <Keywords group="literals" color="#FFD700" bold="false">
+        true _G print pairs ipairs table math string num type io os coroutine
+    </Keywords>
+    
+    <!-- Regras de Captura Textual -->
+    <Comments line="--" blockStart="--[[" blockEnd="]]" color="#7F7F7F" />
+    <Strings double='"' single="'" color="#FFD700" />
+</SyntaxLanguage>
